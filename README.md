@@ -107,6 +107,9 @@ Keshav | Implemented party, table and waitlist classes and baseline README summa
 
 Alper | Implemented the view.java class and handled the Reflection section of the README.
 
+## GenAI
+We used GenAI (Claude) to review our code and suggest improvements, such as adding an upper limit on the number of tables, adding boundary tests for party size, and planning how to test the estimated wait time. The Reflection section was written by Alper and then edited by GenAI for better layout. All code decisions were made by our team, and we checked every suggestion by reading the code and running our tests before accepting it.
+
 
 
 
