@@ -82,11 +82,11 @@ We are pretty much completely done implementing the MVP. The core functionality 
 
 ## Attribution
 Alex | Implemented the controller.java class and handled Next steps and attribution sections of the README.
---------------------------------
+
 Keshav | Implemented party, table and waitlist classes and baseline README summary.
---------------------------------
+
 Alper | Implemented the view.java class and handled the Reflection section of the README.
---------------------------------
+
 
 
 
