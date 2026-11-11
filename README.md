@@ -73,3 +73,11 @@ no open table, freeing an already-open table, and an out-of-range table ID).
 
 Estimated wait time and differently-sized tables are the stretch goals and
 are **not** implemented here, per the design doc's own scope split.
+
+## Reflection
+
+
+## Next Steps
+
+
+## Attribution
