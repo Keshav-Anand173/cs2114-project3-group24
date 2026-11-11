@@ -78,6 +78,18 @@ are **not** implemented here, per the design doc's own scope split.
 
 
 ## Next Steps
-
+We are pretty much completely done implementing the MVP. The core functionality of the waitlist is there and we can enqueue, dequeue, and seat parties of guests at available tables and remove them when they are done. One change feature that we did not initially plan to add is the function countOpenTables(). This allows us to get the number of tables currently open and using that we know how many are taken. This should affect the model class as in our stretch goals we want to estimate a wait time using number of empty tables + groups ahead in the queue. We are committing to this stretch goal to create a tracker for estimated wait time based on the time since a party has been seated and parties in the queue. We will need to test the estimateWaitTime() function with null, full and empty variants. Alex is responsible for implementing this stretch goal, Alper will oversee it's interaction with model, view and controller, and Keshav will be in charge of formatting the second prototype and identifying key changes between now and then.
 
 ## Attribution
+Alex | Implemented the controller.java class and handled Next steps and attribution sections of the README.
+--------------------------------
+Keshav | Implemented party, table and waitlist classes and baseline README summary.
+--------------------------------
+Alper | Implemented the view.java class and handled the Reflection section of the README.
+--------------------------------
+
+
+
+
+
+
