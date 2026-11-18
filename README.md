@@ -98,14 +98,18 @@ What doesn't work yet?:
 - Neither stretch goal is implemented yet.
 
 ## Next Steps
-We are pretty much completely done implementing the MVP. The core functionality of the waitlist is there and we can enqueue, dequeue, and seat parties of guests at available tables and remove them when they are done. One change feature that we did not initially plan to add is the function countOpenTables(). This allows us to get the number of tables currently open and using that we know how many are taken. This should affect the model class as in our stretch goals we want to estimate a wait time using number of empty tables + groups ahead in the queue. We are committing to this stretch goal to create a tracker for estimated wait time based on the time since a party has been seated and parties in the queue. We will need to test the estimateWaitTime() function with null, full and empty variants. Alex is responsible for implementing this stretch goal, Alper will oversee it's interaction with model, view and controller, and Keshav will be in charge of formatting the second prototype and identifying key changes between now and then.
+We are completely done implementing the MVP. The core functionality of the waitlist is there and we can enqueue, dequeue, and seat parties of guests at available tables and remove them when they are done. One change feature that we did not initially plan to add is the function countOpenTables(). This allows us to get the number of tables currently open and using that we know how many are taken. This should affect the model class as in our stretch goals we want to estimate a wait time using number of empty tables + groups ahead in the queue. We also added all test classes for the MVP and any methods we have implemented so far. We will need to test the estimateWaitTime() function with null, full and empty variants. Alex is responsible for implementing this stretch goal, Alper will oversee it's interaction with model, view and controller, and Keshav will be in charge of formatting the second prototype and identifying key changes between now and then.
+
+We are committing to this stretch goal to create a tracker for estimated wait time based on the time since a party has been seated and parties in the queue and include it in the final build due next week.
+
+Our demo will show all of the functionality of the MVP described above and our stretch goals. We will allocate 1 minute to showing MVP, 1 minute to stretch goals, and 1 minute to showing MVC interaction.
 
 ## Attribution
-Alex | Implemented the controller.java class and handled Next steps and attribution sections of the README.
+Alex | Updated the controller.java class and wrote tests. Handled Next steps and attribution sections of the README.
 
-Keshav | Implemented party, table and waitlist classes and baseline README summary.
+Keshav | Updated party, table and waitlist classes and wrote tests. Updated baseline README summary.
 
-Alper | Implemented the view.java class and handled the Reflection section of the README.
+Alper | Updated the view.java class and wrote tests. Handled the Reflection section of the README.
 
 ## GenAI
 We used GenAI (Claude) to review our code and suggest improvements, such as adding an upper limit on the number of tables, adding boundary tests for party size, and planning how to test the estimated wait time. The Reflection section was written by Alper and then edited by GenAI for better layout. All code decisions were made by our team, and we checked every suggestion by reading the code and running our tests before accepting it.
